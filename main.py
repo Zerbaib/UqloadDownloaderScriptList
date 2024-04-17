@@ -1,8 +1,8 @@
 from lib.uqload_dl.uqload import UQLoad
 
-dirPath = "./"#input("Enter the path to the directory where the files are located: ")
-serieName = "Mr Robot"#input("Enter the name of the series: ")
-seasonNumber = 1#int(input("Enter the season number: "))
+dirPath = input("Enter the path to the directory where the files are located: ")
+serieName = input("Enter the name of the series: ")
+seasonNumber = int(input("Enter the season number: "))
 i = 1
 
 try:
